@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Popover
+		id="myPopover"
+		title="Popover on Hover"
+		class="sapUiResponsivePadding--header sapUiResponsivePadding--footer"
+		placement="Bottom"
+		initialFocus="email">
+		<footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+			
+			</OverflowToolbar>
+		</footer>
+		<Image src="https://img.etimg.com/thumb/width-640,height-480,imgsize-47375,resizemode-75,msid-59997858/tech/ites/sap-india-plans-to-train-15-lakh-consultants-in-the-next-three-years.jpg" width="15em" densityAware="false" />
+	</Popover>
+</core:FragmentDefinition>
